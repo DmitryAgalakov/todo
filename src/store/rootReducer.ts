@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import { tasksSlice } from './slices/surfaceSlice/tasksSlice';
+import { jobsSlice } from './slices/jobsSlice/jobsSlice';
 
 export const rootReducer = combineReducers({
-  tasks: tasksSlice.reducer,
+  jobs: jobsSlice.reducer,
 });
