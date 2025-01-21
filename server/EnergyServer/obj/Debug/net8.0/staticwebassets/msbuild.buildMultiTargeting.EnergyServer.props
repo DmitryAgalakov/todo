@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EnergyServer.props" />
+</Project>
